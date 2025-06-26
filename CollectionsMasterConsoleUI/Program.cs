@@ -41,13 +41,18 @@ namespace CollectionsMasterConsoleUI
 
             Array.Reverse(numbers);
 
-            Console.WriteLine("All Numbers Reversed (Custom):");
+            Console.WriteLine("All Numbers Reversed (Built-In):");
 
             NumberPrinter(numbers);
 
             Console.WriteLine("---------REVERSE CUSTOM------------");
 
-                        //TODO: Create a method that will set numbers that are a multiple of 3 to zero then print to the console all numbers
+            ReverseArray(numbers);
+            Console.WriteLine("All Numbers Reversed (Custom):");
+            NumberPrinter(numbers);
+
+
+            //TODO: Create a method that will set numbers that are a multiple of 3 to zero then print to the console all numbers
             Console.WriteLine("Multiple of three = 0: ");
             ThreeKiller(numbers);
 
